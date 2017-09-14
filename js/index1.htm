@@ -4,18 +4,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="renderer" content="webkit" />
-  <title>综合</title>
+  <title>快搜 - 搜索快人一步</title>
   <meta name="keywords" content="综合" />
-  <meta name="description" content="综合" />
+  <meta name="description" content="快搜！垂直搜索。精准搜索,便捷交互！是您的上网搜索第一站！" />
   <meta name="revised" content="frank, 2017/8/24/" />
   <meta name="author" content="fangyongchao.com" />
-  <link rel="shortcut icon" href="http://osnytgh0z.bkt.clouddn.com/image/ico/favicon.ico" /> 
-  <script type="text/javascript" src="http://osnytgh0z.bkt.clouddn.com/2017/08/577210407.js"></script>
-  <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/4218241320.js"></script>
- <!-------- <link rel="stylesheet" href="http://osnytgh0z.bkt.clouddn.com/2017/08/3495232673.css">------>
-  <link rel="stylesheet" href="http://osnytgh0z.bkt.clouddn.com/2017/08/4053861771.css" />
-  <link rel="stylesheet" type="text/css" href="http://osnytgh0z.bkt.clouddn.com/2017/08/112463627.css"/>
-  <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/2373525454.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="shortcut icon" href="/favicon.ico" /> 
+  <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/3.1.0/jquery-3.1.0.min.js"></script>
+  <script src="http://lib.sinaapp.com/js/jquery-ui/1.10.2/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://7q5dsg.com1.z0.glb.clouddn.com/search/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://7q5dsg.com1.z0.glb.clouddn.com//css/jquery.mCustomScrollbar.css" />
+  <link rel="stylesheet" type="text/css" href="so.css"/>
+  <script src="config.js" type="text/javascript" charset="utf-8"></script>
   </head> 
  <body>
  	<script type="text/javascript">
@@ -25,20 +25,17 @@
  	</script>
   <div id="nav">
    <ul id="skin-nav">
-    <li><a href="" title="frank" class="logo"><img src="http://osnytgh0z.bkt.clouddn.com/2017/08/2823712665.png"/></a></li>
-   <!-----http://www.ubiaoqing.com/
-   <li id="donate"><i style="color:#589BFF;" class="fa fa-thumbs-up"></i>&nbsp;赞助&nbsp;&nbsp;&nbsp;
-    <div id="sub_donate"></div></li> ---->
-	<!---<li><a href="http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=344" target="_blank"><i style="color:#ED6D52;" class="fa fa-heart"></i> 赞助者</a></li>--->
-   <!----- <li><a href="http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=322" target="_blank"><i style="color:#F7B700;font-size:15px" class="fa fa-cog fa-spin"></i> 自定义</a></li>
+    <li><a href="http://search.chongbuluo.com/" title="虫部落快搜" class="logo"><img src="images/so_logo.png"/></a></li>
+    <li id="donate"><i style="color:#589BFF;" class="fa fa-thumbs-up"></i>&nbsp;赞助&nbsp;&nbsp;&nbsp;
+    <div id="sub_donate"></div></li> 
+	<li><a href="http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=344" target="_blank"><i style="color:#ED6D52;" class="fa fa-heart"></i> 赞助者</a></li>
+    <li><a href="http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=322" target="_blank"><i style="color:#F7B700;font-size:15px" class="fa fa-cog fa-spin"></i> 自定义</a></li>
 	<li><a href="http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=599" target="_blank"><i style="color:#589BFF;font-size:14px" class="fa fa-spinner fa-spin"></i> 更新存档</a></li>
-	<li id="cc"><a data="http://bbs.chongbuluo.com/" >虫部落社区</a></li>
+	<li><a href="http://bbs.chongbuluo.com/" title="虫部落社区" target="_blank"><i style="color:#23CF5F" class="fa fa-group"></i> 虫部落社区</a></li>
     <li><a href="http://scholar.chongbuluo.com/" target="_blank"><i style="color:#A262E8" class="fa fa-mortar-board"></i> 学术搜索</a></li>
 	<li><a href="http://data.chongbuluo.com/" target="_blank"><i style="color:#F7B700" class="fa fa-cubes"></i> 数据搜索</a></li>
 	<li><a href="http://image.chongbuluo.com/" target="_blank"><i style="color:#ED6D52" class="fa fa-picture-o"></i> 图搜</a></li>
-	<li><a href="http://magnet.chongbuluo.com/" target="_blank"><i style="color:#52DBFC" class="fa fa-magnet"></i> 磁力搜索</a></li>---->
-	<li id="red" class="shake-constant on"><a href="http://fangyongchao.com/" target="engine">frank</a></li>
-	
+	<li><a href="http://magnet.chongbuluo.com/" target="_blank"><i style="color:#52DBFC" class="fa fa-magnet"></i> 磁力搜索</a></li>
     <li id="skin"><i style="color:#23CF5F" class="fa fa-leaf"></i> 皮肤
      <ul id="skin-subnav">
       <li><a href="http://ww2.sinaimg.cn/large/b1601727gw1f0yog91237j205k05ka9z.jpg">默认</a></li>
@@ -58,11 +55,8 @@
   <div class="container">
    <div class="left-nav">
     <ul id="foo" class="chongbuluo">
-	<li id="google"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/google.ico" /><a data="https://frank1126.github.io/guanwang/" >常0011</a></li>
-	<li id="frank"><img src="http://osnytgh0z.bkt.clouddn.com/image/ico/favicon.ico" /><a data="https://fangyongchao.com">franks</a></li>
-	<li id="bai"><img src="http://osnytgh0z.bkt.clouddn.com/image/ico/favicon.ico" /><a data="http://192.168.2.12/redmine/">redmine</a></li>
+	<li id="google"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/google.ico" /><a data="http://search.chongbuluo.com/google.html">Google</a></li>
 	 <li id="baidu"><img src="http://tb1.bdstatic.com/tb/favicon.ico" /><a data="https://www.baidu.com/">百度</a></li>
-	 <li id="baidu2"><img  /><a data="https://frank1126.github.io/guanwang/">百度2</a></li>
      <li id="cnbing"><img src="http://cn.bing.com/favicon.ico" /><a data="http://cn.bing.com/">必应</a></li>
 	 <li id="baidu_advanced"><img src="http://tb1.bdstatic.com/tb/favicon.ico" /><a data="http://search.chongbuluo.com/baidu_advanced.html">百度高级</a></li>
 	 <li id="sogou_advanced"><img src="https://www.sogou.com/images/logo/new/favicon.ico" /><a data="http://search.chongbuluo.com/sogou_advanced.html">搜狗高级</a></li>
@@ -95,31 +89,32 @@
 		</ul>
 	 </li>
 	 <li id="wdl"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/wdl/favicon.ico" /><a data="http://mx.wdl.org/zh/">世图</a></li>
-	<!--- <li id="easyicon"><img src="http://www.easyicon.net/favicon.ico" /><a data="http://www.easyicon.net/">图标</a></li>--->
+	 <li id="easyicon"><img src="http://www.easyicon.net/favicon.ico" /><a data="http://www.easyicon.net/">图标</a></li>
 	 <li id="gif"><img src="http://www.soogif.com/favicon.ico" /><a data="http://www.soogif.com/extend/index">GIF动图</a></li>
 	 <li id="piggif"><img src="http://www.piggif.com/favicon.ico" /><a data="http://www.piggif.com/">小猪动图</a></li>
+	 <li id="biaoqing"><img src="http://www.ubiaoqing.com/favicon.ico" /><a data="http://www.ubiaoqing.com/">表情包</a></li>
 	 <li id="jiumodiary"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/jiumodiary/favicon.png" /><a data="https://www.jiumodiary.com/">电子书</a></li>
 	 <li id="lib"><img src="http://wx2.sinaimg.cn/small/b1601727ly1fhf7ce3wibg200g00g0rz.gif" /><a data="http://gen.lib.rus.ec/">英文电子书</a></li>
 	 <li id="mao"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/panc/favicon.ico" /><a data="http://www.ziyuanmao.com/">资源猫</a></li>
-     <li id="kuaidi"><img src="https://cdn.kuaidi100.com/favicon.ico" /><a data="http://www.kuaidi100.com/">快递</a></li>
+     <li id="kuaidi"><img src="/images/kuaidi.ico" /><a data="http://www.kuaidi100.com/">快递</a></li>
 	 <li id="gepu"><img src="http://www.zhaogepu.com/favicon.ico" /><a data="http://www.zhaogepu.com/">找歌谱</a></li>
 	 <li id="nyaso"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/nyaso/favicon.ico" /><a data="https://nyaso.com/">动漫资源</a></li>
 	 <li id="kisssub"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/kisssub/kisssub.ico" /><a data="http://www.kisssub.org/">动漫 BT</a></li>
 	 <li id="acgsou"><img src="http://cdn.aixifan.com/ico/favicon.ico" /><a data="http://www.acgsou.com/">ACG搜</a></li>
 	 <li id="baidushitu"><img src="http://tb1.bdstatic.com/tb/favicon.ico" /><a data="http://stu.baidu.com/">百度识图</a></li>
 	 <!--<li id="tineye"><img src="http://www.chongbuluo.com/images/tineye.ico" /><a data="https://www.tineye.com/">Tineye</a></li>-->
-	 <li id="appstore"><a data="https://theappstore.org/">TheAppStore</a></li>
+	 <li id="appstore"><img src="https://theappstore.org/images/logo128.png" /><a data="https://theappstore.org/">TheAppStore</a></li>
 	 <li id="apple"><img src="http://wx4.sinaimg.cn/small/b1601727gy1fckdwkmtlbj200w00wwe9.jpg" /><a data="https://fnd.io/">App Store</a></li>
 	 <li id="chashenjia"><img src="http://static1.dongqiudi.com/web-new/web/images/fav.ico" /><a data="http://bbs.chongbuluo.com/price.html">查身价</a></li>
-	 <li id="shapecatcher"><img src="http://shapecatcher.com/favicon.ico" /><a data="http://shapecatcher.com/">特殊符号识别</a></li>
+	 <li id="shapecatcher"><img src="/images/shapecatcher.ico" /><a data="http://shapecatcher.com/">特殊符号识别</a></li>
 	 <li id="font"><img src="http://www.qiuziti.com/img/icon.ico" /><a data="http://www.qiuziti.com/">求字体</a></li>
 	 <li id="visualhunt"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/visualhunt/favicon.ico" /><a data="http://visualhunt.com/">Visual Hunt</a></li>
 	 <li id="renwu"><img src="https://www.sogou.com/images/logo/new/favicon.ico" /><a data="http://www.sogou.com/tupu/person.html?q=%E8%B5%B5%E4%B8%BD%E9%A2%96">人物关系</a></li>
-	<!---- <li id="xungen"><img src="/images/xungen.ico" /><a data="http://weijp.library.sh.cn/mobileinto.html">姓氏家谱</a></li>---->
+	 <li id="xungen"><img src="/images/xungen.ico" /><a data="http://weijp.library.sh.cn/mobileinto.html">姓氏家谱</a></li>
 	 <li id="handian"><img src="http://www.zdic.net/favicon.ico" /><a data="http://www.zdic.net/">汉典</a></li>
 	 <li id="vividict"><img src="http://www.vividict.com/favicon.ico" /><a data="http://www.vividict.com/Default.aspx">象形文字</a></li>
-	<!---- <li id="guoxue"><img src="/images/guoxue.ico" /><a data="http://www.guoxuedashi.com/zidian/bujian/">国学</a></li>---->
-	<!---- <li id="wenxian"><img src="http://www.chongbuluo.com/images/daizhige.ico" /><a data="http://122.200.75.13">古文献</a></li>------->
+	 <li id="guoxue"><img src="/images/guoxue.ico" /><a data="http://www.guoxuedashi.com/zidian/bujian/">国学</a></li>
+	 <li id="wenxian"><img src="http://www.chongbuluo.com/images/daizhige.ico" /><a data="http://122.200.75.13">古文献</a></li>
 	 <li id="mba"><img src="http://www.mbalib.com/favicon.ico" /><a data="http://www.mbalib.com/">MBA智库</a></li>
 	 <li id="makedie"><img src="http://7q5dsg.com1.z0.glb.clouddn.com//favicon/assrt/favicon.ico" /><a data="http://assrt.net/">字幕</a></li>
 	 <li id="bilibili"><img src="http://static.hdslb.com/images/favicon.ico" /><a data="http://search.bilibili.com/">哔哩哔哩</a></li>
@@ -143,8 +138,7 @@
 	 <li id="csres"><img src="http://www.csres.com/images/gb.ico" /><a data="http://www.csres.com/">国家标准</a></li>
      <li id="wolf"><img src="http://www.chongbuluo.com/images/wolframalpha.ico" /><a data="http://www.wolframalpha.com/">Wolfram Alpha</a></li>
      <li id="dianzi"><img src="http://www.chongbuluo.com/images/chinaso.ico" /><a data="http://www.alldatasheetcn.com/">电子元件数据</a></li>
-	 <li id="ziding1"><a data="http://139.129.45.53:8081/sys/filem.php?p=/www/web/frank2/public_html&act=list&t=d">编辑文件</a></li>
-
+     <li id="123"><img src="http://tb1.bdstatic.com/tb/favicon.ico" /><a data="http://123.baidu.com/">老年</a></li>
     </ul>
     <script type="text/javascript">
     	var c = localStorage.content;
@@ -152,7 +146,7 @@
     		$("#foo")[0].innerHTML = c;
     	}
     </script>
-    <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/4210240419.js"></script>
+    <script src="http://7q5dsg.com1.z0.glb.clouddn.com/search/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>$(".left-nav").mCustomScrollbar({theme:"minimal-dark"});</script>
    </div>
    <div class="main">
@@ -160,28 +154,31 @@
    </div>
   </div>
   <div class="footer">
-   <a href="https://www.fangyongchao.com/" target="_blank">frank出品</a>
+   <a href="http://www.chongbuluo.com/" target="_blank">frank出品</a>
    <span>&copy; 2017-2017 fangyongchao.com</span>
    <a href="http://www.miibeian.gov.cn/" target="_blank">鲁ICP备15038216号</a>
-   <a href="" title="联系我们" target="_blank">联系我们</a>
-   <a href="" title="国内首个搜索向维基" target="_blank">关于我们</a>
-  
+   <a href="http://bbs.chongbuluo.com/blog-4-178.html" title="联系我们" target="_blank">联系我们</a>
+   <a href="http://www.chongbuluo.org/" title="国内首个搜索向维基" target="_blank">关于我们</a>
+   <a href="http://www.giffox.com/" title="老司机导航" target="_blank">老司机导航</a>
+   <script src="http://s19.cnzz.com/z_stat.php?id=1253022179&web_id=1253022179" language="JavaScript"></script>
   </div>
-  <!-------<link href="http://osnytgh0z.bkt.clouddn.com/2017/08/3495232673.css" rel="stylesheet"/>---->
-  <link rel="stylesheet" type="text/css" href="http://osnytgh0z.bkt.clouddn.com/2017/08/1556754589.css"/>
-  <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/212562931.js" type="text/javascript" charset="utf-8"></script>
-  <link rel="stylesheet" type="text/css" href="http://osnytgh0z.bkt.clouddn.com/2017/08/3192252334.css"/>
-  <link rel="stylesheet" type="text/css" href="http://osnytgh0z.bkt.clouddn.com/2017/08/1495841164.css"/>
-  <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/823140513.js" type="text/javascript" charset="utf-8"></script>
-  <script src="http://osnytgh0z.bkt.clouddn.com/2017/08/1163987550.js"></script>
+  <link href="https://static.notion-static.com/c51f4a5173bd4152a9a22fed5d97ab70/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="http://7q5dsg.com1.z0.glb.clouddn.com/search/ui-dialog.css"/>
+  <script src="http://7q5dsg.com1.z0.glb.clouddn.com/search/dialog-min.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="http://7q5dsg.com1.z0.glb.clouddn.com/search/messenger.css"/>
+  <link rel="stylesheet" type="text/css" href="http://7q5dsg.com1.z0.glb.clouddn.com/search/messenger-theme-ice.css"/>
+  <script src="http://7q5dsg.com1.z0.glb.clouddn.com/search/messenger.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="color.js"></script>
+  <script src="http://chong.qiniudn.com/js/chinese_convert.js"></script>
   <script>
 	var defaultEncoding = 2; // 预设语言：1-繁体中文 | 2-简体中文
 	var translateDelay = 0;
-	var cookieDomain = "https://fangyongchao.com";        
+	var cookieDomain = "http://www.baidu.com";        
 	var msgToTraditionalChinese = "繁体";        
 	var msgToSimplifiedChinese = "简体";        
 	var translateButtonId = "translateLink"; 
-	</script>
+	translateInitilization();
+  </script>
   <script type="text/javascript">         
             window.onload=function () {
                       function _GetUrlParams() {
